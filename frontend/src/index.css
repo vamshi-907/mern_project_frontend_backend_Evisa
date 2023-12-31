@@ -1,0 +1,21 @@
+/* Reset margin and padding for the entire page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element dimensions */
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Set the background image */
+  background-image: url('./backgroundimg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set the height to fill the viewport */
+}
